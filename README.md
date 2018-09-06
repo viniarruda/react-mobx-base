@@ -12,5 +12,6 @@
 
 - React
 - Mobx
-- Router
+- Mobx State Tree
+- Router + Auth
 - Styled Component
