@@ -10,17 +10,14 @@ import Login from '../views/login'
 import Home from '../views/home'
 import DevTools from "mobx-react-devtools"
 
-// Import our Stores Here
-import ProductStore from '../store/product'
+// Import Stores Here
 import AuthStore from "../store/auth"
 
-// Because they're classes, we have to instantiate them here :)
 const authStore = AuthStore.create({
   logged: false
 });
 
 const store = {
-  product: ProductStore,
   auth : authStore
 };
 
